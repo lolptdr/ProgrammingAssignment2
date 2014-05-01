@@ -1,10 +1,13 @@
-## Cache Inverse of a Matrix file combines the making of inverse matrix (set and get value of matrix, set and get value of inverse)
-## and returning of the inverse matrix if it has been calculated already (otherwise it calculates and caches it).
+## Cache Inverse of a Matrix file combines the making of inverse matrix (set and get value of matrix, 
+## set and get value of inverse) and returning of the inverse matrix if it has been calculated already 
+## (otherwise it calculates and caches it).
+## Assumption: matrix is invertible
 ## by Joseph Tingsanchali
 ## Coursera.org's Data Science specialization by Johns Hopkins University
 ## 22 April 2014
 
-##  makeCacheMatrix function creates a special "matrix" object that can cache its inverse, using four functions: get,set,setSolve,getSolve.
+##  makeCacheMatrix function creates a special "matrix" object that can cache its inverse, using four functions: 
+## get,set,setSolve,getSolve.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
